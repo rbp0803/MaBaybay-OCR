@@ -1,5 +1,6 @@
 # MaBaybay: A Matlab-based Baybayin Optical Character Recognition Package
 
+![Alt text](https://github.com/rbp0803/MaBaybay/blob/main/MaBaybayIconV3.png)
 
 This work consolidates our Baybayin optical character recognition (OCR) systems, which comprise of three recognition levels: character, word, and block category.
  1. Character - this system primarily recognizes and discriminates Baybayin from the Latin alphabet at the character level. 
