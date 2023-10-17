@@ -3,12 +3,6 @@
 ![Alt text](https://github.com/rbp0803/MaBaybay/blob/main/MaBaybayIconV3.png)
 
 This work consolidates our Baybayin optical character recognition (OCR) systems, which comprise of three recognition levels: character, word, and block category.
- 1. Character - this system primarily recognizes and discriminates Baybayin from the Latin alphabet at the character level. 
- 2. Word - this system aims to transliterate Baybayin words into their equivalent Latin form. 
- 3. Block - this system integrates prior OCR algorithms, which discriminates Baybayin from Latin texts and further transliterates Baybayin-detected texts to Latin. 
-
-
-![Alt text](https://github.com/rbp0803/MaBaybay/blob/main/Framework.png)
 
 ## Environment
 Software:
