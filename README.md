@@ -1,19 +1,30 @@
 # MaBaybay: A Matlab-based Baybayin Optical Character Recognition Package
+This work aims to recognize Baybayin scripts from individual characters to a whole block of texts. The software offers a user-friendly graphical user interface (GUI) console with a simple design, allowing for easy use and interaction with the application.
+
 
 ![Alt text](https://github.com/rbp0803/MaBaybay/blob/main/MaBaybayIconV3.png)
+![Alt text](https://github.com/rbp0803/MaBaybay/blob/main/MaBaybay_OCRConsole.png)
 
-This work consolidates our Baybayin optical character recognition (OCR) systems, which comprise of three recognition levels: character, word, and block category.
 
-## Environment
+## Operating Environments and Dependencies
+System:
+* Windows 8 and later
+
 Software:
-* MATLAB R2020a and later releases
+* MATLAB versions R2020a-R2022b
 * Statistics and Machine Learning Toolbox
+* Image Processing Toolbox
+* Computer Vision Toolbox
+* OCR Language Data Files (Tagalog and Japanese)
+* Parallel Computing Toolbox
+  
+_**Note:** The algorithms are only compatible with MATLAB versions R2020a to R2022b since the ocr built-in function from Mathworks was recently updated in version R2023a. The latest versions now have error recognition for Baybayin texts._
 
 ## Usage
-* /Algorithms folder contains essential code functions to implement the recognition program. Due to the upload maximum size (25 MB) restriction per file, the Baybayin characters and Latin letters classifiers are deposited in the Release section: https://github.com/rbp0803/MaBaybay/releases/tag/v1.0.   
-* Upon acquisition of the complete package (please ensure that the classifiers are also in the same folder), simply run the `run_headless.m` file for a sample implementation.
-* /Filipino Word Corpus folder contains an excel file that holds a list of 74,490 Filipino words (and some default phrases).
-* /Sample images folder contains other sample images that the user can opt to try.
+* /Algorithms folder contains essential code functions to implement the recognition program. Due to the upload maximum size (25 MB) restriction per file, the Baybayin characters SVM classier and the Baybayin GUI executable file are deposited in the Release section: https://github.com/rbp0803/MaBaybay/releases/tag/v1.0.   
+* Upon acquisition of the complete package (please ensure that the classifier are also in the same folder), simply run the `MaBaybayOCR_App.mlapp` file to access and explore the Baybayin GUI.
+* /Filipino Word Corpus folder contains a csv file that holds a list of 74,400+ Filipino words. Words recorded from this file will be considered legitimate by the system.
+* /Sample images folder contains 15 ample images that the user can opt to try. 
 
 ## References
 
