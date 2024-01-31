@@ -3,7 +3,7 @@ This work aims to recognize Baybayin scripts from individual characters to a who
 
 
 ![Alt text](https://github.com/rbp0803/MaBaybay/blob/main/MaBaybayIconV3.png)
-![Alt text](https://github.com/rbp0803/MaBaybay/blob/main/MaBaybay_OCRConsole.png)
+![Alt text](https://github.com/rbp0803/MaBaybay/blob/main/MaBaybayOCR_console.jpg)
 
 
 ## Operating Environments and Dependencies
