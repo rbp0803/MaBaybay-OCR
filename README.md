@@ -20,7 +20,7 @@ Software:
 * OCR Language Data Files (Tagalog and Malay)
 * Parallel Computing Toolbox
   
-_**Note:** The algorithms are only compatible with MATLAB versions R2023a and later since the [ocr](https://www.mathworks.com/help/vision/ref/ocr.html) built-in function from Mathworks was recently updated in version R2023a. Visit the [Release Section](https://github.com/rbp0803/MaBaybay/releases/tag/v1.0) if you may opt to access the MaBaybay-OCR codes using older MATLAB versions (R2020a-R2022b)._
+_**Note:** The algorithms are only compatible with MATLAB versions R2023a and later since the [ocr](https://www.mathworks.com/help/vision/ref/ocr.html) built-in function from Mathworks was recently updated in version R2023a. Visit the [Release Section](https://github.com/rbp0803/MaBaybay/releases/tag/v1.0) if you may opt to access the MaBaybay-OCR codes using older MATLAB versions (R2019a-R2022b)._
 
 ## Usage
 * /Algorithms folder contains essential code functions to implement the recognition program. Due to the upload maximum size (25 MB) restriction per file, the Baybayin characters SVM classier and the Baybayin GUI executable file are deposited in the Release section: https://github.com/rbp0803/MaBaybay/releases/tag/v1.0.   
