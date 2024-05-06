@@ -17,16 +17,16 @@ Software:
 * Statistics and Machine Learning Toolbox
 * Image Processing Toolbox
 * Computer Vision Toolbox
-* OCR Language Data Files (Tagalog and Malay)
+* OCR Language Data Files (Tagalog)
 * Parallel Computing Toolbox
   
-_**Note:** The algorithms are only compatible with MATLAB versions R2023a and later since the [ocr](https://www.mathworks.com/help/vision/ref/ocr.html) built-in function from Mathworks was recently updated in version R2023a. Visit the [Release Section](https://github.com/rbp0803/MaBaybay/releases/tag/v1.0) if you may opt to access the MaBaybay-OCR codes using older MATLAB versions (R2019a-R2022b)._
+_**Note:** The posted source codes here are only compatible with MATLAB versions R2023a and later since the [ocr](https://www.mathworks.com/help/vision/ref/ocr.html) built-in function from Mathworks was recently updated in version R2023a. Visit the [Release Section](https://github.com/rbp0803/MaBaybay/releases/tag/v1.0) if you may opt to access the MaBaybay-OCR codes using older MATLAB versions (R2019a-R2022b)._
 
 ## Usage
 * /Algorithms folder contains essential code functions to implement the recognition program. Due to the upload maximum size (25 MB) restriction per file, the Baybayin characters SVM classier and the Baybayin GUI executable file are deposited in the Release section: https://github.com/rbp0803/MaBaybay/releases/tag/v1.0.   
-* Upon acquisition of the complete package (please ensure that the classifier are also in the same folder), simply run the `MaBaybayOCR_App.mlapp` file to access and explore the Baybayin GUI.
+* Upon acquisition of the complete package (please ensure that the classifier is also in the same folder), simply run the `MaBaybayOCR_App.mlapp` file to access and explore the Baybayin GUI.
 * /Filipino Word Corpus folder contains a csv file that holds a list of 74,400+ Filipino words. Words recorded from this file will be considered legitimate by the system.
-* /Sample images folder contains 19 sample images that the user can opt to try. 
+* /Sample images folder contains 20 sample images that the user can opt to try. 
 
 ## References
 
